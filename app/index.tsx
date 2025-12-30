@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, SafeAreaView, StyleSheet, View } from 'react-native';
+import * as ScreenOrientation from 'expo-screen-orientation';
 import { CaptchaItem, getNextCaptcha } from './captcha-data';
 import CustomCaptcha from './captcha-factory';
 
