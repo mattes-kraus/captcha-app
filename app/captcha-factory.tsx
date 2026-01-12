@@ -9,12 +9,11 @@ import {
     useWindowDimensions,
     View
 } from "react-native";
-import { main_color } from "./constants";
+import { gridSize, main_color } from "./constants";
 
 interface CustomCaptchaProps {
   imageUrl: ImageSourcePropType;
   instructionText: string;
-  gridSize: number;
   solutionMap: Record<string, boolean>;
   onSuccess?: () => void;
 }
@@ -23,7 +22,6 @@ interface CustomCaptchaProps {
  * CustomCaptcha Komponente
  * * @param {string} imageUrl - URL oder Pfad (via require) zum Bild.
  * @param {string} instructionText - Der Text oben (z.B. "Wähle alle Ampeln").
- * @param {number} gridSize - Anzahl der Spalten/Reihen (z.B. 3 für ein 3x3 Grid).
  * @param {object} solutionMap - Dictionary mit Koordinaten "x,y" als Key und true/false als Value.
  * Beispiel: { "0,0": false, "1,1": true }
  * @param {function} onSuccess - Callback wenn das Captcha gelöst wurde.
@@ -31,7 +29,6 @@ interface CustomCaptchaProps {
 export default function CustomCaptcha({
   imageUrl,
   instructionText,
-  gridSize,
   solutionMap,
   onSuccess,
 }: CustomCaptchaProps) {
@@ -61,6 +58,11 @@ export default function CustomCaptcha({
 
   // Validierungs-Logik
   const verifyCaptcha = () => {
+    if(Object.keys(solutionMap).length === 0){ 
+      if(onSuccess) onSuccess();
+      return
+  }
+
     let isCorrect = true;
 
     // 1. Prüfen, ob alle ausgewählten Felder laut Lösung "true" sind

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, SafeAreaView, StyleSheet, View } from 'react-native';
-import * as ScreenOrientation from 'expo-screen-orientation';
 import { CaptchaItem, getNextCaptcha } from './captcha-data';
 import CustomCaptcha from './captcha-factory';
 
@@ -13,7 +12,7 @@ export default function App() {
   }, []);
 
   const loadNewCaptcha = () => {
-    const next = getNextCaptcha(currentCaptcha ? currentCaptcha.id : null);
+    const next = currentCaptcha ? getNextCaptcha( currentCaptcha.imageUrl, currentCaptcha.instructionText) : getNextCaptcha(null, null);
     setCurrentCaptcha(next);
   };
 
@@ -42,7 +41,6 @@ export default function App() {
           key={currentCaptcha.id} 
           imageUrl={currentCaptcha.imageUrl}
           instructionText={currentCaptcha.instructionText}
-          gridSize={currentCaptcha.gridSize}
           solutionMap={currentCaptcha.solutionMap}
           onSuccess={handleSuccess}
         />

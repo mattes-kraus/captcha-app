@@ -1,1 +1,3 @@
-export const main_color = '#ec1ac9ff'
+export const main_color = '#4285F4'
+
+export const gridSize = 4;
