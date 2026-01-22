@@ -43,424 +43,277 @@ const CAPTCHA_LIST: CaptchaItem[] = [
   {
     imageUrl: require('../assets/captchas/spiegelselfie.jpg'),
     instructionText: 'Normalität',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/spiegelselfie.jpg'),
     instructionText: 'Vibes',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/pylone.jpg'),
     instructionText: 'Vibes',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/pylone.jpg'),
     instructionText: 'NPC Behavior',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/stuhlkreis.jpg'),
     instructionText: 'Normalität',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/stuhlkreis.jpg'),
     instructionText: 'Verantwortung',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/stuhlkreis.jpg'),
     instructionText: 'Why am I like this',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/randale.jpg'),
     instructionText: 'Main Character Energy',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/randale.jpg'),
     instructionText: 'Normalität',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/randale.jpg'),
     instructionText: 'Schuld',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/randale.jpg'),
     instructionText: 'Unschuld',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/wecker.jpg'),
     instructionText: 'Freiheit',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/wecker.jpg'),
     instructionText: "It's not that deep",
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/wecker.jpg'),
     instructionText: 'Main Character Energy',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/nonnen.jpg'),
     instructionText: 'Gefahr',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/nonnen.jpg'),
     instructionText: 'Healing',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/nonnen.jpg'),
     instructionText: "It's not that deep",
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/nonnen.jpg'),
     instructionText: 'NPC Behavior',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/nonnen.jpg'),
     instructionText: 'Unhinged',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/nonnen.jpg'),
     instructionText: 'Why am I like this',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/brand.jpeg'),
     instructionText: "Actually it is",
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/brand.jpeg'),
     instructionText: "Gefahr",
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/brand.jpeg'),
     instructionText: "Schuld",
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/brand.jpeg'),
     instructionText: "Unschuld",
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kanye.jpg'),
     instructionText: 'Liebe',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kanye.jpg'),
     instructionText: 'Main Character Energy',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kanye.jpg'),
     instructionText: 'Schuld',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/freiheit-1.jpg'),
     instructionText: 'Freiheit',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/freiheit-2.jpg'),
     instructionText: 'Freiheit',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/family.jpg'),
     instructionText: 'Actually it is',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/family.jpg'),
     instructionText: 'Healing',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/family.jpg'),
     instructionText: 'I should unpack this in therapy',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/family.jpg'),
     instructionText: 'Liebe',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/family.jpg'),
     instructionText: 'Verantwortung',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/family.jpg'),
     instructionText: 'Why am I like this',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kneeing-child.jpg'),
     instructionText: 'Main Character Energy',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kneeing-child.jpg'),
     instructionText: 'This says a lot about about society',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kneeing-child.jpg'),
     instructionText: 'Liebe',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/kneeing-child.jpg'),
     instructionText: 'Unhinged',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/romantic-room.jpg'),
     instructionText: 'Main Character Energy',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/romantic-room.jpg'),
     instructionText: 'This says a lot about society',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/romantic-room.jpg'),
     instructionText: 'Liebe',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Sicherheit',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Verantwortung',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Verantwortung',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Liebe',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Gefahr',
-    solutionMap: createSolutionMap(4, []),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Freiheit',
-    solutionMap: createSolutionMap(4, []),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Healing',
-    solutionMap: createSolutionMap(4, []),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'Actually it is',
-    solutionMap: createSolutionMap(4, []),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'I should unpack this in therapy',
-    solutionMap: createSolutionMap(4, []),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/geld.jpg'),
     instructionText: 'It`s not that deep',
-    solutionMap: createSolutionMap(4, []),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/charlie_kirk_1.jpg'),
     instructionText: 'Charlie Kirk',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/charlie_kirk_2.jpg'),
     instructionText: 'Charlie Kirk',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   {
     imageUrl: require('../assets/captchas/charlie_kirk_3.png'),
     instructionText: 'Charlie Kirk',
-    solutionMap: createSolutionMap(4, 
-        [
-
-        ]),
+    solutionMap: {},
   },
   // ** MY CAPTCHAS **************************************** /
   // {

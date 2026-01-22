@@ -38,7 +38,6 @@ export default function App() {
     <SafeAreaView style={styles.screen}>
       <View style={styles.center}>
         <CustomCaptcha 
-          key={currentCaptcha.id} 
           imageUrl={currentCaptcha.imageUrl}
           instructionText={currentCaptcha.instructionText}
           solutionMap={currentCaptcha.solutionMap}

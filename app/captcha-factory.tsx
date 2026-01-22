@@ -58,7 +58,10 @@ export default function CustomCaptcha({
 
   // Validierungs-Logik
   const verifyCaptcha = () => {
-    if(Object.keys(solutionMap).length === 0){ 
+    if(Object.keys(solutionMap).length === 0){
+      setTimeout(() => {
+        setSelectedCoords([]);
+      }, 500);
       if(onSuccess) onSuccess();
       return
   }
