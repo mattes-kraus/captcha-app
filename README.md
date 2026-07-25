@@ -1,6 +1,6 @@
 # Captcha App
 
-Here you can add whatever picture you like and get an infinite loop of captchas with all the custom captchas you configured in the app's data. See live example [here](captcha.matteskraus.de).
+Here you can add whatever picture you like and get an infinite loop of captchas with all the custom captchas you configured in the app's data. See live example [here](https://www.captcha.matteskraus.de).
 
 ![Demo of Captcha App](assets/demo.gif)
 
